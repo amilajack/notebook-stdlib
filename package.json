@@ -1,8 +1,9 @@
 {
-  "name": "@observablehq/notebook-stdlib",
+  "name": "@amilajack/notebook-stdlib",
   "version": "0.0.1",
   "license": "ISC",
   "main": "src/index",
+  "module": "src/index",
   "author": {
     "name": "Observable, Inc."
   },
@@ -20,7 +21,8 @@
   },
   "dependencies": {
     "@std/esm": "^0.16.0",
-    "d3-require": "^0.6.2"
+    "d3-require": "^0.6.2",
+    "marked": "0.3.12"
   },
   "devDependencies": {
     "eslint": "^4.12.1",
